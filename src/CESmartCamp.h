@@ -4,6 +4,7 @@
 #define CESmartCamp_h
 
 #include "Arduino.h"
+#include <WiFiClientSecureAxTLS.h>
 
 class UltraSonic{
 private:
@@ -15,5 +16,15 @@ public:
 	long length_cm();
 	long length_inch();
 };
+
+class SoilMoisture{
+private:
+	int pin;
+public:
+	SoilMoisture(int p);
+	double read();
+};
+
+void sendMessage(String token, String message);
 
 #endif
