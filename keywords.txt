@@ -9,13 +9,15 @@
 
 
 UltraSonic 	KEYWORD1
+SoilMoisture  KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 length_cm	KEYWORD2
 
 length_inch	KEYWORD2
-
+read KEYWORD2
+sendMessage KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
