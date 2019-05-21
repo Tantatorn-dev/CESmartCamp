@@ -9,7 +9,7 @@
 
 
 UltraSonic 	KEYWORD1
-SoilMoisture  KEYWORD1
+SoilMoisture  	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
