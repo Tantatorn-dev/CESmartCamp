@@ -30,7 +30,6 @@ long UltraSonic::length_inch(){
 
 SoilMoisture::SoilMoisture(int p){
 	pin = p;
-	pinMode(pin, INPUT);
 }
 
 double SoilMoisture::read(){
