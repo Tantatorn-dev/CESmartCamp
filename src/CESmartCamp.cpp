@@ -33,7 +33,7 @@ SoilMoisture::SoilMoisture(int p){
 }
 
 double SoilMoisture::read(){
-	return 100 - ((analogRead(pin) / 1023.00) * 100);
+	return 100 - ((analogRead(pin) / 1024.00) * 100);
 }
 
 void sendMessage(String token,String message)
