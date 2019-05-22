@@ -13,4 +13,5 @@ void loop() {
   output += " Analog pin => ";
   output += analogRead(ANALOG_PIN);
   Serial.println(output);
+  delay(100);
 }
