@@ -7,4 +7,5 @@ void setup() {
 void loop() {
   int LDRValue = analogRead(LDR_PIN);
   Serial.println(LDRValue);
+  delay(100);
 }
