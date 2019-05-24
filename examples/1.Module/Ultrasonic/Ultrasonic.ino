@@ -10,5 +10,4 @@ void loop() {
   Serial.print(sonar.length_cm());
   Serial.print(" ");
   Serial.println(sonar.length_inch());
-  delay(100);
 }

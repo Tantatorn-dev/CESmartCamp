@@ -3,7 +3,7 @@
 
 void setup() {
   Serial.begin(9600);
-  pinMode(DIGITAL_PIN,INPUT);
+  pinMode(DIGITAL_PIN, INPUT);
 }
 
 void loop() {
@@ -13,5 +13,4 @@ void loop() {
   output += " Analog pin => ";
   output += analogRead(ANALOG_PIN);
   Serial.println(output);
-  delay(100);
 }

@@ -6,5 +6,4 @@ void setup() {
 
 void loop() {
   Serial.println(analogRead(VIBRATE_PIN));
-  delay(100);
 }

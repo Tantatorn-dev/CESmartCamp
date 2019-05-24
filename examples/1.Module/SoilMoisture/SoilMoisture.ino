@@ -15,5 +15,4 @@ void loop() {
   output += " Percentage => ";
   output += soil.read();
   Serial.println(output);
-  delay(100);
 }

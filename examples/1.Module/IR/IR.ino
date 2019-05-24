@@ -7,5 +7,4 @@ void setup() {
 
 void loop() {
   Serial.println(digitalRead(IR_PIN));
-  delay(100);
 }
